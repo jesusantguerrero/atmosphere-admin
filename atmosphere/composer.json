@@ -1,0 +1,21 @@
+{
+    "name": "freesgen/atmosphere",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Atmosphere\\": "/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Atmosphere\\AtmosphereServiceProvider"
+            ]
+        }
+    }
+}
